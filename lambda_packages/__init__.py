@@ -131,6 +131,13 @@ lambda_packages = {
                                  'regex', 'python2.7-regex-2016.8.27.tar.gz')
         }
     },
+    'shapely': {
+        'python2.7': {
+            'version': '1.5.17',
+            'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 'regex', 'python2.7-shapely-1.5.17.tar.gz')
+        }
+    },
     'xmlsec': {
         'python2.7': {
             'version': '1.0.9',
